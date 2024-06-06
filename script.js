@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const emailResultado = document.getElementById('emailResultado');
     const mensagemResultado = document.getElementById('mensagemResultado');
 
-    nomeResultado.textContent += nome;
-    emailResultado.textContent += email;
-    mensagemResultado.textContent += mensagem;
+    nomeResultado.textContent += " " + nome;
+    emailResultado.textContent += " " + email;
+    mensagemResultado.textContent += " " + mensagem;
 });
